@@ -1,11 +1,11 @@
-                        types of roles
+                        types of roles                            
                         /      |       \
                 Author       User     Admin
                     /          |            \
              registration    registration    login
-             login           login
-             Add article
-             view articles    
+             login           login           read articles
+             Add article     read articles   block/unblock user
+             view articles   commenting  
 
 ### Backend Development
 
@@ -34,4 +34,6 @@
 
 9. design RestAPIs for all resources
 
-10. 
+10. Registration & Login in common for USER & AUTHOR. Create a seperate service to reuse
+
+11. The Client wont send role. It just redirects to a specific API based on role selection. The hardcoded role assigned by API routes.
